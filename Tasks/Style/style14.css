@@ -1,0 +1,44 @@
+tr {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 8px;
+  padding-right: 50px;
+  padding-left: 10px;
+}
+table {
+  width: 500px;
+  color: white;
+  font-size: 17px;
+}
+.purple {
+  background-color: purple;
+  position: relative;
+}
+.purple td {
+  margin-right: 10px;
+}
+.teal {
+  background-color: teal;
+}
+.pink {
+  background-color: pink;
+}
+.first {
+  margin-bottom: -30px;
+  position: relative;
+}
+.first tr:hover {
+  background-color: orange;
+}
+.first:hover + .second {
+  background-color: lightgrey;
+  position: absolute;
+  left: 120px;
+  bottom: 190px;
+}
+.second {
+  width: max-content;
+}
+.second tr {
+  padding: 0px;
+}

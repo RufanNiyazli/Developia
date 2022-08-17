@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  width: 1440px;
+  height: 1046px;
+  background: #ffffff;
+}
+.head {
+  position: absolute;
+  width: 365px;
+  height: 93px;
+  left: 124px;
+  top: 91px;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 55px;
+}
+.txt {
+  position: absolute;
+  width: 662px;
+  height: 374px;
+  left: 124px;
+  top: 202px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+
+}
+.first {
+  position: absolute;
+  width: 314px;
+  height: 315px;
+  left: 976px;
+  top: 226px;
+}
+.third {
+  position: absolute;
+  width: 232px;
+  height: 203px;
+  left: 124px;
+  top: 670px;
+}
+.second {
+  position: absolute;
+  width: 366px;
+  height: 59px;
+  left: 950px;
+  top: 511px;
+  z-index: -1;
+}
+.fourth {
+  position: absolute;
+  width: 189px;
+  height: 32px;
+  left: 157px;
+  top: 857px;
+  z-index: -1;
+}
+.hour {
+  position: absolute;
+  width: 150px;
+  height: 39px;
+  left: 488px;
+  top: 740px;
+
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 25px;
+}
+
+#first {
+  position: absolute;
+  width: 150px;
+  height: 39px;
+  left: 488px;
+  top: 780px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+}
+.week {
+  position: absolute;
+  width: 150px;
+  height: 39px;
+  left: 733px;
+  top: 740px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 25px;
+}
+#second {
+  position: absolute;
+  width: 150px;
+  height: 39px;
+  left: 733px;
+  top: 780px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+}
+.month {
+  position: absolute;
+  width: 150px;
+  height: 39px;
+  left: 976px;
+  top: 740px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 25px;
+}
+#third {
+  position: absolute;
+  width: 150px;
+  height: 39px;
+  left: 976px;
+  top: 780px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+}
+/*----*/
+@media screen and (min-width: 400px) and (max-width: 900px) {
+  body {
+    width: 834px;
+    height: 633px;
+  }
+  .head {
+    position: absolute;
+    width: 211.4px;
+    height: 53.86px;
+    left: 72px;
+    top: 56px;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .txt {
+    position: absolute;
+    width: 383.41px;
+    height: 216.61px;
+    left: 72px;
+    top: 120.29px;
+
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .first {
+    position: absolute;
+    width: 181.86px;
+    height: 182.44px;
+    left: 565.45px;
+    top: 134.19px;
+  }
+  .third {
+    display: none;
+  }
+  .second {
+    position: absolute;
+    width: 211.98px;
+    height: 34.17px;
+    left: 550.39px;
+    top: 299.25px;
+    z-index: -1;
+  }
+  .fourth {
+    display: none;
+  }
+  .hour {
+    position: absolute;
+    width: 86.88px;
+    height: 22.59px;
+    left: 72px;
+    top: 407px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  #first {
+    position: absolute;
+    width: 86.88px;
+    height: 22.59px;
+    left: 72px;
+    top: 430.17px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 130%;
+  }
+  .week {
+    position: absolute;
+    width: 86.88px;
+    height: 22.59px;
+    left: 213.9px;
+    top: 407px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 15px;
+  }
+  #second {
+    position: absolute;
+    width: 108px;
+    height: 23px;
+    left: 214.1px;
+    top: 429.95px;
+    font-family: "Roboto";
+    font-weight: 400;
+  }
+  .month {
+    width: 86.88px;
+    height: 22.59px;
+    left: 354.63px;
+    top: 407px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 15px;
+  }
+  #third {
+    position: absolute;
+    width: 86.88px;
+    height: 22.59px;
+    left: 354.63px;
+    top: 430.17px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    width: 375px;
+    height: 776px;
+  }
+  .head {
+    position: absolute;
+    width: 170.08px;
+    height: 43.34px;
+    left: 36px;
+    top: 56px;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 26px;
+  }
+  .txt {
+    position: absolute;
+    width: 308.47px;
+    height: 174.27px;
+    left: 36px;
+    top: 107.72px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+  }
+  .first {
+    position: absolute;
+    width: 146.32px;
+    height: 146.78px;
+    left: 113.12px;
+    top: 338px;
+  }
+  .third {
+    display: none;
+  }
+  .second {
+    position: absolute;
+    width: 170.55px;
+    height: 27.49px;
+    left: 101px;
+    top: 470.8px;
+    z-index: -1;
+  }
+  .fourth {
+    display: none;
+  }
+  .hour {
+    position: absolute;
+    width: 69.9px;
+    height: 18.17px;
+    left: 35px;
+    top: 544px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  #first {
+    position: absolute;
+    width: 86px;
+    height: 18px;
+    left: 35px;
+    top: 563px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 130%;
+  }
+  .week {
+    position: absolute;
+    width: 69.9px;
+    height: 18.17px;
+    left: 154.16px;
+    top: 544px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+  }
+  #second {
+    position: absolute;
+    width: 86.89px;
+    height: 18.5px;
+    left: 154.33px;
+    top: 562.46px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 10px;
+  }
+  .month {
+    position: absolute;
+    width: 69.9px;
+    height: 18.17px;
+    left: 35px;
+    top: 615px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+  }
+  #third {
+    position: absolute;
+    width: 76px;
+    height: 18px;
+    left: 35px;
+    top: 634px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 10px;
+  }
+}
