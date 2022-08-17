@@ -1,0 +1,109 @@
+/* li:first-of-type {
+  color: red;
+}
+li:last-of-type {
+  color: blue;
+}
+li:nth-of-type(4) {
+  color: orange;
+}
+li:nth-of-type(even) {
+  color: red;
+}
+li:nth-of-type(odd) {
+  color: chartreuse;
+}
+li:nth-of-type(-n + 5) {
+  color: teal;
+} */
+/* cixma yazmaq olmaz
+li:nth-of-type(-n + 8):nth-child(odd) {
+  color: black;
+} */
+/*------FIRST-end--------*/
+/* p::first-letter{
+    color:orange;
+}
+p::first-line{
+    color:red;
+}
+h1::selection{
+    color: red;
+} */
+/*-----second-end----*/
+/* :root{
+    --main-color: red;
+    --fontS: 55p;
+}
+p{
+    color: var(--main-color);
+    font-size: var(--fontS);
+} */
+/*----third-end-----*/
+/* div {
+  width: 150px;
+  height: 150px;
+  margin: 50px;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1.3);
+  transition: 0.4s;
+  transform: translate(50%);
+}
+div:hover {
+  transform-origin: top;
+  transform: rotate(80deg);
+} */
+/*---fourth-end---*/
+.card {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+.card-inner {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+  position: relative;
+  transition: 0.5s;
+  transform-style: preserve-3d; 
+}
+.card img {
+  width: 100%;
+  height: 100%;
+}
+.front,
+.back {
+  width: 100%;
+  height: 100%;
+  position: absolute;   
+}
+.back {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;  
+}
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+/* --fifthend--- */
+/* .box {
+  width: 200px;
+  height: 300px;
+  position: relative;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  width: max-content;
+  border: 1px solid green;
+  color: orange;
+}
+.box:hover h1 {
+  transform: translateY(-450%);
+} */
+/* sixth-end */
+

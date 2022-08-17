@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* dive verende oz olcusu boyuyur p verende hereket edir olcu deyismir */
+/* p {
+  background-color: cornsilk;
+  /* margin: 50px;
+  padding: 20px 30px;
+  width: 300px; */
+/* box-sizing: border-box;
+  border: 2px solid black;
+  display: inline-block;
+  width: 300px; */
+
+a {
+  display: block;
+  width: 200px;
+  background-color: blue;
+  color: white;
+  display: none; 
+/* elementi yox edir */
+/* (1) */}
+p {
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.first {
+  width: 300px;
+  background-color: red;
+}
+.yellow {
+  width: 200px;
+  background-color: yellow;
+}
+.blue {
+  background-color: blue;
+  width: 150px;
+}
+.green {
+  background-color: green;
+  width: 100px;
+}
+.black {
+  background-color: burlywood;
+  width: 50px;
+}
